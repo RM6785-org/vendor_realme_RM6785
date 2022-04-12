@@ -903,6 +903,7 @@ PRODUCT_PACKAGES += \
     libSoftGatekeeper \
     lights.mt6785 \
     memtrack.mt6785 \
+    power.default \
     power.mt6785 \
     sound_trigger.primary.mt6785 \
     thermal.mt6785 \
@@ -917,6 +918,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.5-impl \
     vendor.mediatek.hardware.mtkcodecservice@1.1-impl \
     vendor.mediatek.hardware.mtkpower@1.1-impl \
+    vendor.mediatek.hardware.mtkpower@1.2-impl \
     vendor.mediatek.hardware.nvram@1.1-impl \
     vendor.mediatek.hardware.pq@2.6-impl \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
@@ -1486,6 +1488,7 @@ PRODUCT_PACKAGES += \
     libmtkisp_metadata \
     libmtklimiter_vendor \
     libmtknetutils \
+    libmtkperf_client_vendor \
     libmtkproperty \
     libmtkrillog \
     libmtkshifter_vendor \
@@ -1505,7 +1508,9 @@ PRODUCT_PACKAGES += \
     liboplus_audio_config \
     liboppo_arcSoftBokehEngine_new \
     liboppo_platform_hwi \
+    libperfctl_vendor \
     libpixelflinger \
+    libpower_timer \
     libpowerhal \
     libpowerhalwrap_vendor \
     libpq_cust_base \
@@ -1563,6 +1568,7 @@ PRODUCT_PACKAGES += \
     libaudiopreprocessing_mtk \
     vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.bluetooth.audio@2.1 \
+    vendor.mediatek.hardware.bluetooth.audio@2.2 \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
@@ -1583,6 +1589,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkcodecservice@1.1 \
     vendor.mediatek.hardware.mtkpower@1.0 \
     vendor.mediatek.hardware.mtkpower@1.1 \
+    vendor.mediatek.hardware.mtkpower@1.2 \
     vendor.mediatek.hardware.netdagent@1.0 \
     vendor.mediatek.hardware.nvram@1.0 \
     vendor.mediatek.hardware.nvram@1.1 \
@@ -1814,8 +1821,6 @@ PRODUCT_PACKAGES += \
     camerahalserver \
     hostapd \
     mtkfusionrild \
-    power_native_test_v_1_0 \
-    power_native_test_v_1_1 \
     vendor.mediatek.hardware.dfps@1.0-service \
     vendor.mediatek.hardware.dplanner@2.0-service \
     vendor.mediatek.hardware.gpu@1.0-service \
